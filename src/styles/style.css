@@ -1,0 +1,61 @@
+.page{
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.navbar{
+  background-color: #0086DC;
+}
+
+.navbar-nav{
+  gap: 15px;
+  color: white;
+}
+
+.container-fluid .navbar-brand{
+  font-weight: 600;
+  color: white;
+}
+.nav-item{
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-item :hover {
+  color: black;
+}
+
+.nowrap-text {
+  display: flex;
+  align-items: center;
+}
+
+.nowrap-text .nav-link {
+  margin-left: 0.2rem;
+  color:#0086DC;
+}
+
+.image-right {
+  margin-left: auto;
+}
+
+.custom-button {
+  color: white!important;
+  background-color: #0086DC!important;
+}
+
+.custom-button:hover{
+  color: black!important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  color: red!important;
+}
+
+
+
